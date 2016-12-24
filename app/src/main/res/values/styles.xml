@@ -1,0 +1,24 @@
+<resources>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="android:scrollbarSize">3dp</item>
+    </style>
+
+    <style name="activityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <!--横竖自定义线-->
+    <style name="line_1px">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+</resources>

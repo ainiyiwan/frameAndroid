@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arlen.frame.common.view.NavBarHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nav="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/nav_bar_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    nav:titleText="用户中心"
+    nav:titleColor="@color/cl_26"
+    nav:backgroundColor="@color/cl_ff"
+    nav:lineColor="@color/line"
+    nav:isShowLine="true" />
