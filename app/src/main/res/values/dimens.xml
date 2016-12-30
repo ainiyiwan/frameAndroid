@@ -6,7 +6,7 @@
     <dimen name="nav_bar">48dp</dimen>
 
     <dimen name="dp_15">15dp</dimen>
-
+    <dimen name="refresh_header_height_jd">100dp</dimen>
     <!--项目里面通用的字体大小-->
     <dimen name="sp_15">15sp</dimen>
     <dimen name="sp_18">18sp</dimen>

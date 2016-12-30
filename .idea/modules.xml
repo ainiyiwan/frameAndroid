@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/frameAndroid.iml" filepath="$PROJECT_DIR$/frameAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" filepath="$PROJECT_DIR$/greendaogenerator/greendaogenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeToLoadLayout/swipeToLoadLayout.iml" filepath="$PROJECT_DIR$/swipeToLoadLayout/swipeToLoadLayout.iml" />
     </modules>
   </component>
 </project>

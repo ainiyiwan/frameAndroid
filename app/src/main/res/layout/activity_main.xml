@@ -3,6 +3,7 @@
     xmlns:nav="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:tag="暂无优惠券"
     android:orientation="vertical">
 
     <ImageView

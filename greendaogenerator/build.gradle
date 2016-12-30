@@ -1,0 +1,8 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = "com.yaochufa.dao.generator.GreenDaoGenerator"
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+}

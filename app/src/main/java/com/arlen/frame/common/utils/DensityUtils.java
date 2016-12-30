@@ -69,12 +69,12 @@ public class DensityUtils
 	/**
 	 * 获得屏幕宽/高
 	 */
-	public static int getWindowHeight(Activity acitvity) {
-		return acitvity.getWindowManager().getDefaultDisplay().getHeight();
+	public static int getWindowHeight(Activity activity) {
+		return activity.getWindowManager().getDefaultDisplay().getHeight();
 	}
 
-	public static int getWindowWidth(Activity acitvity) {
-		return acitvity.getWindowManager().getDefaultDisplay().getWidth();
+	public static int getWindowWidth(Activity activity) {
+		return activity.getWindowManager().getDefaultDisplay().getWidth();
 	}
 
 	public static int getStatusBarHeight(Context context) {

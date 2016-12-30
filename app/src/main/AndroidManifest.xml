@@ -91,7 +91,7 @@
             android:name="com.arlen.frame.common.utils.GlideConfiguration"
             android:value="GlideModule" />
 
-        <activity android:name=".view.account.view.MainActivity">
+        <activity android:name=".view.account.view.JDPullRefreshActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

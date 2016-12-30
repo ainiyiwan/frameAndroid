@@ -1,7 +1,5 @@
 package com.arlen.frame.db.shpref;
 
-import android.content.Context;
-
 import com.google.gson.Gson;
 
 import java.lang.reflect.ParameterizedType;
@@ -16,8 +14,8 @@ abstract public class GsnShrPrefsDao<T> extends BaseShrPrefsDao {
     private Class<T> mClazz;
     private Gson mGsn;
 
-    GsnShrPrefsDao(Context ctx, String dbName, int curVersion, Class clazz) {
-        super(ctx, dbName, curVersion);
+    GsnShrPrefsDao(String dbName, int curVersion, Class clazz) {
+        super(dbName, curVersion);
         this.mClazz = clazz;
         this.mGsn = new Gson();
     }
