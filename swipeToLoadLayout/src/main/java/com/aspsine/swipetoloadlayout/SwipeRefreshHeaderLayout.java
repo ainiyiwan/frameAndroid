@@ -52,7 +52,9 @@ public class SwipeRefreshHeaderLayout extends FrameLayout implements SwipeTrigge
 
     @Override
     public void onPrepare() {
-
+        if(ringProgressDrawable.isRunning()){
+            ringProgressDrawable.stop();
+        }
     }
 
     @Override
@@ -74,6 +76,6 @@ public class SwipeRefreshHeaderLayout extends FrameLayout implements SwipeTrigge
 
     @Override
     public void onReset() {
-
+        ringProgressDrawable.stop();
     }
 }

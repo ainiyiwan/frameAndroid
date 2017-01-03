@@ -52,13 +52,15 @@ public class SwipeToLoadLayout extends ViewGroup {
 
     private AutoScroller mAutoScroller;
 
-    protected OnRefreshListener mRefreshListener;
+    private OnRefreshListener mRefreshListener;
 
-    protected OnLoadMoreListener mLoadMoreListener;
+    private OnLoadMoreListener mLoadMoreListener;
 
     private View mHeaderView;
 
     private View mTargetView;
+
+    private View mTargetViewContainer;
 
     private View mFooterView;
 
@@ -140,6 +142,18 @@ public class SwipeToLoadLayout extends ViewGroup {
      * a switcher indicate whiter load more function is enabled
      */
     private boolean mLoadMoreEnabled = true;
+
+    /**
+     * a switcher whither hiding headerView when refreshing
+     */
+
+    private boolean isHideHeaderWhenRefreshing = true;
+
+    /**
+     * a switcher whither hiding footerView when loadingmore
+     */
+
+    private boolean isHideFooterWhenLoadingMore = true;
 
     /**
      * <b>ATTRIBUTE:</b>
@@ -334,34 +348,6 @@ public class SwipeToLoadLayout extends ViewGroup {
         mTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
         mAutoScroller = new AutoScroller();
     }
-
-//    @Override
-//    protected void onFinishInflate() {
-//        super.onFinishInflate();
-//        final int childNum = getChildCount();
-//        if (childNum == 0) {
-//            // no child return
-//            return;
-//        } else if (0 < childNum && childNum < 4) {
-////            mHeaderView = findViewById(R.id.swipe_refresh_header);
-//
-//            mTargetView = findViewById(R.id.swipe_target);
-////            mFooterView = findViewById(R.id.swipe_load_more_footer);
-//        } else {
-//            // more than three children: unsupported!
-//            throw new IllegalStateException("Children num must equal or less than 3");
-//        }
-//        if (mTargetView == null) {
-//            return;
-//        }
-//        if (mHeaderView != null && mHeaderView instanceof SwipeTrigger) {
-//            mHeaderView.setVisibility(GONE);
-//        }
-//        if (mFooterView != null && mFooterView instanceof SwipeTrigger) {
-//            mFooterView.setVisibility(GONE);
-//        }
-//    }
-
     private View createHeaderView(Context context){
         View headerView = LayoutInflater.from(context).inflate(R.layout.layout_header,this,false);
         ViewGroup.LayoutParams param = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT
@@ -380,7 +366,65 @@ public class SwipeToLoadLayout extends ViewGroup {
 
     public void initTargetView(View view){
         this.mTargetView = view;
+        try {
+            mTargetViewContainer = (View) mTargetView.getParent();
+            if(mTargetViewContainer instanceof SwipeToLoadLayout) {
+                mTargetViewContainer = null;
+            }else{
+                while(mTargetViewContainer.getParent() != null){
+                    if(mTargetViewContainer.getParent() instanceof SwipeToLoadLayout){
+                        break;
+                    }
+                    mTargetViewContainer = (View) mTargetViewContainer.getParent();
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            mTargetViewContainer = null;
+        }
     }
+
+//    @Override
+//    protected void onFinishInflate() {
+//        super.onFinishInflate();
+//        final int childNum = getChildCount();
+//        if (childNum == 0) {
+//            // no child return
+//            return;
+//        } else if (0 < childNum && childNum < 4) {
+//            mHeaderView = findViewById(R.id.swipe_refresh_header);
+//            mTargetView = findViewById(R.id.swipe_target);
+//            try {
+//                mTargetViewContainer = (View) mTargetView.getParent();
+//                if(mTargetViewContainer instanceof SwipeToLoadLayout) {
+//                    mTargetViewContainer = null;
+//                }else{
+//                    while(mTargetViewContainer.getParent() != null){
+//                        if(mTargetViewContainer.getParent() instanceof SwipeToLoadLayout){
+//                            break;
+//                        }
+//                        mTargetViewContainer = (View) mTargetViewContainer.getParent();
+//                    }
+//                }
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//                mTargetViewContainer = null;
+//            }
+//            mFooterView = findViewById(R.id.swipe_load_more_footer);
+//        } else {
+//            // more than three children: unsupported!
+//            throw new IllegalStateException("Children num must equal or less than 3");
+//        }
+//        if (mTargetView == null) {
+//            return;
+//        }
+//        if (mHeaderView != null && mHeaderView instanceof SwipeTrigger) {
+//            mHeaderView.setVisibility(GONE);
+//        }
+//        if (mFooterView != null && mFooterView instanceof SwipeTrigger) {
+//            mFooterView.setVisibility(GONE);
+//        }
+//    }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
@@ -397,7 +441,7 @@ public class SwipeToLoadLayout extends ViewGroup {
         }
         // target
         if (mTargetView != null) {
-            final View targetView = mTargetView;
+            final View targetView = mTargetViewContainer == null ? mTargetView : mTargetViewContainer;
             measureChildWithMargins(targetView, widthMeasureSpec, 0, heightMeasureSpec, 0);
         }
         // footer
@@ -448,7 +492,7 @@ public class SwipeToLoadLayout extends ViewGroup {
      */
     @Override
     protected ViewGroup.LayoutParams generateDefaultLayoutParams() {
-        return new SwipeToLoadLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        return new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
     }
 
     /**
@@ -456,7 +500,7 @@ public class SwipeToLoadLayout extends ViewGroup {
      */
     @Override
     protected ViewGroup.LayoutParams generateLayoutParams(ViewGroup.LayoutParams p) {
-        return new SwipeToLoadLayout.LayoutParams(p);
+        return new LayoutParams(p);
     }
 
     /**
@@ -464,7 +508,7 @@ public class SwipeToLoadLayout extends ViewGroup {
      */
     @Override
     public ViewGroup.LayoutParams generateLayoutParams(AttributeSet attrs) {
-        return new SwipeToLoadLayout.LayoutParams(getContext(), attrs);
+        return new LayoutParams(getContext(), attrs);
     }
 
     @Override
@@ -528,6 +572,19 @@ public class SwipeToLoadLayout extends ViewGroup {
                 if (mActivePointerId == INVALID_POINTER) {
                     return false;
                 }
+
+                //hide headerView when refreshing , it will improve the user experience
+                if (mHasHeaderView && isRefreshing() && isHideHeaderWhenRefreshing){
+                    mRefreshCallback.onReset();
+                    scrollRefreshingToDefault();
+                }
+
+                //hide footerView when loadingmore , it will improve the user experience
+                if (mHasFooterView && isLoadingMore() && isHideFooterWhenLoadingMore){
+                    mLoadMoreCallback.onReset();
+                    scrollLoadingMoreToDefault();
+                }
+
                 float y = getMotionEventY(event, mActivePointerId);
                 float x = getMotionEventX(event, mActivePointerId);
                 final float yInitDiff = y - mInitDownY;
@@ -545,6 +602,7 @@ public class SwipeToLoadLayout extends ViewGroup {
                     // intercept the move action event and pass it to SwipeToLoadLayout#onTouchEvent()
                     return true;
                 }
+
                 break;
             case MotionEvent.ACTION_POINTER_UP: {
                 onSecondaryPointerUp(event);
@@ -570,6 +628,7 @@ public class SwipeToLoadLayout extends ViewGroup {
                 return true;
 
             case MotionEvent.ACTION_MOVE:
+
                 // take over the ACTION_MOVE event from SwipeToLoadLayout#onInterceptTouchEvent()
                 // if condition is true
                 final float y = getMotionEventY(event, mActivePointerId);
@@ -717,6 +776,24 @@ public class SwipeToLoadLayout extends ViewGroup {
      */
     public boolean isLoadingMore() {
         return STATUS.isLoadingMore(mStatus);
+    }
+
+    /**
+     * a switcher whither hiding headerView when refreshing
+     *
+     * @param hideable
+     */
+    public void setHideHeaderWhenRefreshing(boolean hideable) {
+        this.isHideHeaderWhenRefreshing = hideable;
+    }
+
+    /**
+     * a switcher whither hiding footerView when loadingmore
+     *
+     * @param hideable
+     */
+    public void setHideFooterWhenLoadingMore(boolean hideable) {
+        this.isHideFooterWhenLoadingMore = hideable;
     }
 
     /**
@@ -966,16 +1043,18 @@ public class SwipeToLoadLayout extends ViewGroup {
      * @param loadingMore
      */
     public void setLoadingMore(boolean loadingMore) {
-        if (!isLoadMoreEnabled() || mFooterView == null) {
+        if (mFooterView == null) {
             return;
         }
         this.mAutoLoading = loadingMore;
-        if (loadingMore) {
+        if (loadingMore && isLoadMoreEnabled()) {
+            mAutoLoading = true;
             if (STATUS.isStatusDefault(mStatus)) {
                 setStatus(STATUS.STATUS_SWIPING_TO_LOAD_MORE);
                 scrollDefaultToLoadingMore();
             }
         } else {
+            mAutoLoading = false;
             if (STATUS.isLoadingMore(mStatus)) {
                 mLoadMoreCallback.onComplete();
                 postDelayed(new Runnable() {
@@ -989,7 +1068,7 @@ public class SwipeToLoadLayout extends ViewGroup {
     }
 
     /**
-     * copy from {@link android.support.v4.widget.SwipeRefreshLayout#                                               ()}
+     * copy from {@link android.support.v4.widget.SwipeRefreshLayout#canChildScrollUp()}
      *
      * @return Whether it is possible for the child view of this layout to
      * scroll up. Override this if the child view is a custom view.
@@ -1082,7 +1161,7 @@ public class SwipeToLoadLayout extends ViewGroup {
 
         // layout target
         if (mTargetView != null) {
-            final View targetView = mTargetView;
+            final View targetView = mTargetViewContainer == null ? mTargetView : mTargetViewContainer;
             MarginLayoutParams lp = (MarginLayoutParams) targetView.getLayoutParams();
             final int targetLeft = paddingLeft + lp.leftMargin;
             final int targetTop;
@@ -1157,7 +1236,10 @@ public class SwipeToLoadLayout extends ViewGroup {
                 mFooterView.bringToFront();
             }
         } else if (mStyle == STYLE.BLEW || mStyle == STYLE.SCALE) {
-            if (mTargetView != null) {
+            if(mTargetViewContainer != null){
+                mTargetViewContainer.bringToFront();
+            }
+            else if (mTargetView != null) {
                 mTargetView.bringToFront();
             }
         }

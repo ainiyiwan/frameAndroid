@@ -48,7 +48,9 @@ public class SwipeLoadMoreFooterLayout extends FrameLayout implements SwipeLoadM
 
     @Override
     public void onPrepare() {
-
+        if(ringProgressDrawable.isRunning()){
+            ringProgressDrawable.stop();
+        }
     }
 
     @Override
@@ -70,6 +72,6 @@ public class SwipeLoadMoreFooterLayout extends FrameLayout implements SwipeLoadM
 
     @Override
     public void onReset() {
-
+        ringProgressDrawable.stop();
     }
 }

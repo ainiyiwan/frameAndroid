@@ -34,7 +34,7 @@ public class JDPullRefreshActivity extends DelegateActivity implements OnRefresh
 
     @Override
     public void initActivity() {
-        for(int i = 0;i<100;i++){
+        for(int i = 0;i<10;i++){
             list.add(i+"");
         }
         swipeToLoadLayout = (SwipeToLoadLayout) findViewById(R.id.swipeToLoadLayout);
@@ -67,12 +67,13 @@ public class JDPullRefreshActivity extends DelegateActivity implements OnRefresh
 
     @Override
     public void onRefresh() {
+        Log.d("tag", "onRefresh: "+1);
         swipeToLoadLayout.postDelayed(new Runnable() {
             @Override
             public void run() {
                 swipeToLoadLayout.setRefreshing(false);
             }
-        }, 3000);
+        }, 30000);
     }
 
     @Override

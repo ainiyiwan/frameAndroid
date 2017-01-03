@@ -11,8 +11,6 @@ import de.greenrobot.dao.query.Query;
 
 
 /**
- * Author : wwx
- * mail:wangweixu0102@gmail.com
  */
 public class BaseOperator<T extends AbstractDao, E> {
 
@@ -111,9 +109,4 @@ public class BaseOperator<T extends AbstractDao, E> {
         Query<E> query = mTableDao.queryBuilder().build();
         return queryAsync(query);
     }
-
-
-
-
-
 }
