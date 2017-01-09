@@ -88,7 +88,7 @@ public class HttpProvider {
         builder.addHeader("mVersionCode", mVersionCode+"");
         builder.addHeader("mImeI", mImeI+"");
         builder.addHeader("system", "android");
-        builder.addHeader("token","a82b14d3-aa44-4792-92ac-a9e26a673cf0");
+        builder.addHeader("token","85ed4bbd-1e25-4f1b-8087-63a08575e0c8");
     }
 
     public static String getHttpPointByStatus() {

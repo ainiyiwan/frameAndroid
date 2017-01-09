@@ -1,1 +1,1 @@
-include ':app',':greendaogenerator',':swipeToLoadLayout'
+include ':app',':greendaogenerator',':swipeToLoadLayout',':ShareSdk-lib'

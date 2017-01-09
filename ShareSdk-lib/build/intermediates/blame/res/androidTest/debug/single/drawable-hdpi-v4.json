@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png"
+    }
+]

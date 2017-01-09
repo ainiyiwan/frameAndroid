@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">frameAndroid</string>
+    <string name="quit_app_text">再按一次退出程序</string>
 </resources>

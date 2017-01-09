@@ -60,6 +60,7 @@ public class ReqSubscriber<T> extends Subscriber<T> {
     public void unauthenticated(Throwable e) {
          //401,token失效的操作
         // TODO
+        ToastUtils.toastShort("token过期");
     }
 
     public void clientError(Throwable e) {

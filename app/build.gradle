@@ -11,9 +11,25 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        release {
+            storeFile file("debug.keystore")
+            storePassword "875230"
+            keyAlias "androiddebugkey"
+            keyPassword "875230"
+        }
+    }
+
     buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources true
+            signingConfig signingConfigs.release
+        }
         release {
             minifyEnabled false
+            shrinkResources true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -24,6 +40,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile project(':swipeToLoadLayout')
+    compile project(':ShareSdk-lib')
 
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'io.reactivex:rxjava:x.y.z'
@@ -33,6 +50,7 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
     //图片加载库
     compile 'com.github.bumptech.glide:glide:3.7.0'
 }

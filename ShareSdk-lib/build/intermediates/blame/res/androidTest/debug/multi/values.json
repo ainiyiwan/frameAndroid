@@ -1,0 +1,3360 @@
+[
+    {
+        "outputFile": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 81,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 81,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 81,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 49,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 49,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 45,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 45,
+                        "endOffset": 310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 86,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 86,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 48,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 48,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 451,
+                    "endColumn": 92,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 451,
+                        "endColumn": 92,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 45,
+                    "endOffset": 585
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 544,
+                        "endColumn": 45,
+                        "endOffset": 585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 590,
+                    "endColumn": 42,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 590,
+                        "endColumn": 42,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endColumn": 48,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 48,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 41,
+                    "endOffset": 719
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 41,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 46,
+                    "endOffset": 766
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 724,
+                        "endColumn": 46,
+                        "endOffset": 766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 771,
+                    "endColumn": 50,
+                    "endOffset": 817
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 771,
+                        "endColumn": 50,
+                        "endOffset": 817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 822,
+                    "endColumn": 69,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 822,
+                        "endColumn": 69,
+                        "endOffset": 887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 892,
+                    "endColumn": 108,
+                    "endOffset": 996
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 892,
+                        "endColumn": 108,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1001,
+                    "endColumn": 46,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1001,
+                        "endColumn": 46,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 54,
+                    "endOffset": 1098
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 54,
+                        "endOffset": 1098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1103,
+                    "endColumn": 102,
+                    "endOffset": 1201
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1103,
+                        "endColumn": 102,
+                        "endOffset": 1201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1206,
+                    "endColumn": 51,
+                    "endOffset": 1253
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1206,
+                        "endColumn": 51,
+                        "endOffset": 1253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1258,
+                    "endColumn": 52,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endColumn": 52,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 103,
+                    "endOffset": 1410
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1311,
+                        "endColumn": 103,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1415,
+                    "endColumn": 83,
+                    "endOffset": 1494
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1415,
+                        "endColumn": 83,
+                        "endOffset": 1494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1499,
+                    "endLine": 89,
+                    "endColumn": 9,
+                    "endOffset": 3379
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1499,
+                        "endLine": 89,
+                        "endColumn": 9,
+                        "endOffset": 3379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3384,
+                    "endColumn": 54,
+                    "endOffset": 3434
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3384,
+                        "endColumn": 54,
+                        "endOffset": 3434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3439,
+                    "endColumn": 52,
+                    "endOffset": 3487
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3439,
+                        "endColumn": 52,
+                        "endOffset": 3487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3492,
+                    "endColumn": 52,
+                    "endOffset": 3540
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3492,
+                        "endColumn": 52,
+                        "endOffset": 3540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3545,
+                    "endColumn": 57,
+                    "endOffset": 3598
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3545,
+                        "endColumn": 57,
+                        "endOffset": 3598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3603,
+                    "endColumn": 50,
+                    "endOffset": 3649
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3603,
+                        "endColumn": 50,
+                        "endOffset": 3649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3654,
+                    "endColumn": 43,
+                    "endOffset": 3693
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3654,
+                        "endColumn": 43,
+                        "endOffset": 3693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3698,
+                    "endColumn": 54,
+                    "endOffset": 3748
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 3698,
+                        "endColumn": 54,
+                        "endOffset": 3748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3753,
+                    "endColumn": 104,
+                    "endOffset": 3853
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 3753,
+                        "endColumn": 104,
+                        "endOffset": 3853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3858,
+                    "endColumn": 52,
+                    "endOffset": 3906
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 3858,
+                        "endColumn": 52,
+                        "endOffset": 3906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3911,
+                    "endColumn": 101,
+                    "endOffset": 4008
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 3911,
+                        "endColumn": 101,
+                        "endOffset": 4008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4013,
+                    "endColumn": 43,
+                    "endOffset": 4052
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4013,
+                        "endColumn": 43,
+                        "endOffset": 4052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4057,
+                    "endColumn": 85,
+                    "endOffset": 4138
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4057,
+                        "endColumn": 85,
+                        "endOffset": 4138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4143,
+                    "endColumn": 52,
+                    "endOffset": 4191
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4143,
+                        "endColumn": 52,
+                        "endOffset": 4191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4196,
+                    "endColumn": 42,
+                    "endOffset": 4234
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4196,
+                        "endColumn": 42,
+                        "endOffset": 4234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4239,
+                    "endColumn": 86,
+                    "endOffset": 4321
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4239,
+                        "endColumn": 86,
+                        "endOffset": 4321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4326,
+                    "endColumn": 44,
+                    "endOffset": 4366
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4326,
+                        "endColumn": 44,
+                        "endOffset": 4366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4371,
+                    "endColumn": 43,
+                    "endOffset": 4410
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4371,
+                        "endColumn": 43,
+                        "endOffset": 4410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4415,
+                    "endColumn": 59,
+                    "endOffset": 4470
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4415,
+                        "endColumn": 59,
+                        "endOffset": 4470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4475,
+                    "endColumn": 54,
+                    "endOffset": 4525
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 4475,
+                        "endColumn": 54,
+                        "endOffset": 4525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4530,
+                    "endColumn": 46,
+                    "endOffset": 4572
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 4530,
+                        "endColumn": 46,
+                        "endOffset": 4572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4577,
+                    "endColumn": 47,
+                    "endOffset": 4620
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 4577,
+                        "endColumn": 47,
+                        "endOffset": 4620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4625,
+                    "endColumn": 49,
+                    "endOffset": 4670
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 4625,
+                        "endColumn": 49,
+                        "endOffset": 4670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4675,
+                    "endColumn": 53,
+                    "endOffset": 4724
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 4675,
+                        "endColumn": 53,
+                        "endOffset": 4724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4729,
+                    "endColumn": 57,
+                    "endOffset": 4782
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4729,
+                        "endColumn": 57,
+                        "endOffset": 4782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4787,
+                    "endColumn": 52,
+                    "endOffset": 4835
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 4787,
+                        "endColumn": 52,
+                        "endOffset": 4835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4840,
+                    "endColumn": 60,
+                    "endOffset": 4896
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 4840,
+                        "endColumn": 60,
+                        "endOffset": 4896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4901,
+                    "endColumn": 45,
+                    "endOffset": 4942
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 4901,
+                        "endColumn": 45,
+                        "endOffset": 4942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4947,
+                    "endColumn": 57,
+                    "endOffset": 5000
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 4947,
+                        "endColumn": 57,
+                        "endOffset": 5000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5005,
+                    "endColumn": 57,
+                    "endOffset": 5058
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5005,
+                        "endColumn": 57,
+                        "endOffset": 5058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5063,
+                    "endColumn": 54,
+                    "endOffset": 5113
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5063,
+                        "endColumn": 54,
+                        "endOffset": 5113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5118,
+                    "endColumn": 56,
+                    "endOffset": 5170
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5118,
+                        "endColumn": 56,
+                        "endOffset": 5170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5175,
+                    "endColumn": 52,
+                    "endOffset": 5223
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5175,
+                        "endColumn": 52,
+                        "endOffset": 5223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5228,
+                    "endColumn": 103,
+                    "endOffset": 5327
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5228,
+                        "endColumn": 103,
+                        "endOffset": 5327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5332,
+                    "endColumn": 46,
+                    "endOffset": 5374
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5332,
+                        "endColumn": 46,
+                        "endOffset": 5374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5379,
+                    "endColumn": 38,
+                    "endOffset": 5413
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5379,
+                        "endColumn": 38,
+                        "endOffset": 5413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5418,
+                    "endColumn": 83,
+                    "endOffset": 5497
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5418,
+                        "endColumn": 83,
+                        "endOffset": 5497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5502,
+                    "endColumn": 43,
+                    "endOffset": 5541
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5502,
+                        "endColumn": 43,
+                        "endOffset": 5541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5546,
+                    "endColumn": 43,
+                    "endOffset": 5585
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 5546,
+                        "endColumn": 43,
+                        "endOffset": 5585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5590,
+                    "endColumn": 60,
+                    "endOffset": 5646
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5590,
+                        "endColumn": 60,
+                        "endOffset": 5646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5651,
+                    "endColumn": 55,
+                    "endOffset": 5702
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 5651,
+                        "endColumn": 55,
+                        "endOffset": 5702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5707,
+                    "endColumn": 50,
+                    "endOffset": 5753
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 5707,
+                        "endColumn": 50,
+                        "endOffset": 5753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5758,
+                    "endColumn": 55,
+                    "endOffset": 5809
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 5758,
+                        "endColumn": 55,
+                        "endOffset": 5809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5814,
+                    "endColumn": 63,
+                    "endOffset": 5873
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 5814,
+                        "endColumn": 63,
+                        "endOffset": 5873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5878,
+                    "endColumn": 48,
+                    "endOffset": 5922
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 5878,
+                        "endColumn": 48,
+                        "endOffset": 5922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5927,
+                    "endColumn": 47,
+                    "endOffset": 5970
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 5927,
+                        "endColumn": 47,
+                        "endOffset": 5970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5975,
+                    "endColumn": 51,
+                    "endOffset": 6022
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 5975,
+                        "endColumn": 51,
+                        "endOffset": 6022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6027,
+                    "endColumn": 53,
+                    "endOffset": 6076
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6027,
+                        "endColumn": 53,
+                        "endOffset": 6076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6081,
+                    "endColumn": 50,
+                    "endOffset": 6127
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6081,
+                        "endColumn": 50,
+                        "endOffset": 6127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6132,
+                    "endColumn": 46,
+                    "endOffset": 6174
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6132,
+                        "endColumn": 46,
+                        "endOffset": 6174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6179,
+                    "endColumn": 48,
+                    "endOffset": 6223
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6179,
+                        "endColumn": 48,
+                        "endOffset": 6223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6228,
+                    "endColumn": 59,
+                    "endOffset": 6283
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 6228,
+                        "endColumn": 59,
+                        "endOffset": 6283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6288,
+                    "endColumn": 45,
+                    "endOffset": 6329
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 6288,
+                        "endColumn": 45,
+                        "endOffset": 6329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6334,
+                    "endColumn": 59,
+                    "endOffset": 6389
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6334,
+                        "endColumn": 59,
+                        "endOffset": 6389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6394,
+                    "endColumn": 44,
+                    "endOffset": 6434
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 6394,
+                        "endColumn": 44,
+                        "endOffset": 6434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6439,
+                    "endColumn": 86,
+                    "endOffset": 6521
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 6439,
+                        "endColumn": 86,
+                        "endOffset": 6521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6526,
+                    "endColumn": 52,
+                    "endOffset": 6574
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6526,
+                        "endColumn": 52,
+                        "endOffset": 6574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6579,
+                    "endColumn": 52,
+                    "endOffset": 6627
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6579,
+                        "endColumn": 52,
+                        "endOffset": 6627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6632,
+                    "endColumn": 59,
+                    "endOffset": 6687
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 6632,
+                        "endColumn": 59,
+                        "endOffset": 6687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6692,
+                    "endColumn": 58,
+                    "endOffset": 6746
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6692,
+                        "endColumn": 58,
+                        "endOffset": 6746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6751,
+                    "endColumn": 50,
+                    "endOffset": 6797
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6751,
+                        "endColumn": 50,
+                        "endOffset": 6797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6802,
+                    "endColumn": 98,
+                    "endOffset": 6896
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6802,
+                        "endColumn": 98,
+                        "endOffset": 6896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6901,
+                    "endColumn": 41,
+                    "endOffset": 6938
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6901,
+                        "endColumn": 41,
+                        "endOffset": 6938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6943,
+                    "endColumn": 83,
+                    "endOffset": 7022
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 6943,
+                        "endColumn": 83,
+                        "endOffset": 7022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7027,
+                    "endColumn": 51,
+                    "endOffset": 7074
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 7027,
+                        "endColumn": 51,
+                        "endOffset": 7074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7079,
+                    "endColumn": 45,
+                    "endOffset": 7120
+                },
+                "from": {
+                    "file": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7079,
+                        "endColumn": 45,
+                        "endOffset": 7120
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 81,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 81,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 81,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 49,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 49,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 45,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 45,
+                        "endOffset": 310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 86,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 86,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 48,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 48,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 451,
+                    "endColumn": 92,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 451,
+                        "endColumn": 92,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 45,
+                    "endOffset": 585
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 544,
+                        "endColumn": 45,
+                        "endOffset": 585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 590,
+                    "endColumn": 42,
+                    "endOffset": 628
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 590,
+                        "endColumn": 42,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 633,
+                    "endColumn": 48,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 48,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 41,
+                    "endOffset": 719
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 41,
+                        "endOffset": 719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 724,
+                    "endColumn": 46,
+                    "endOffset": 766
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 724,
+                        "endColumn": 46,
+                        "endOffset": 766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 771,
+                    "endColumn": 50,
+                    "endOffset": 817
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 771,
+                        "endColumn": 50,
+                        "endOffset": 817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 822,
+                    "endColumn": 69,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 822,
+                        "endColumn": 69,
+                        "endOffset": 887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 892,
+                    "endColumn": 108,
+                    "endOffset": 996
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 892,
+                        "endColumn": 108,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1001,
+                    "endColumn": 46,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1001,
+                        "endColumn": 46,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 54,
+                    "endOffset": 1098
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 54,
+                        "endOffset": 1098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1103,
+                    "endColumn": 102,
+                    "endOffset": 1201
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1103,
+                        "endColumn": 102,
+                        "endOffset": 1201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1206,
+                    "endColumn": 51,
+                    "endOffset": 1253
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1206,
+                        "endColumn": 51,
+                        "endOffset": 1253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1258,
+                    "endColumn": 52,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endColumn": 52,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 103,
+                    "endOffset": 1410
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1311,
+                        "endColumn": 103,
+                        "endOffset": 1410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1415,
+                    "endColumn": 83,
+                    "endOffset": 1494
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1415,
+                        "endColumn": 83,
+                        "endOffset": 1494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1499,
+                    "endLine": 89,
+                    "endColumn": 9,
+                    "endOffset": 3379
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1499,
+                        "endLine": 89,
+                        "endColumn": 9,
+                        "endOffset": 3379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3384,
+                    "endColumn": 54,
+                    "endOffset": 3434
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3384,
+                        "endColumn": 54,
+                        "endOffset": 3434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3439,
+                    "endColumn": 52,
+                    "endOffset": 3487
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3439,
+                        "endColumn": 52,
+                        "endOffset": 3487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3492,
+                    "endColumn": 52,
+                    "endOffset": 3540
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3492,
+                        "endColumn": 52,
+                        "endOffset": 3540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3545,
+                    "endColumn": 57,
+                    "endOffset": 3598
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3545,
+                        "endColumn": 57,
+                        "endOffset": 3598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3603,
+                    "endColumn": 50,
+                    "endOffset": 3649
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3603,
+                        "endColumn": 50,
+                        "endOffset": 3649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3654,
+                    "endColumn": 43,
+                    "endOffset": 3693
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3654,
+                        "endColumn": 43,
+                        "endOffset": 3693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3698,
+                    "endColumn": 54,
+                    "endOffset": 3748
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 3698,
+                        "endColumn": 54,
+                        "endOffset": 3748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3753,
+                    "endColumn": 104,
+                    "endOffset": 3853
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 3753,
+                        "endColumn": 104,
+                        "endOffset": 3853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3858,
+                    "endColumn": 52,
+                    "endOffset": 3906
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 3858,
+                        "endColumn": 52,
+                        "endOffset": 3906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3911,
+                    "endColumn": 101,
+                    "endOffset": 4008
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 3911,
+                        "endColumn": 101,
+                        "endOffset": 4008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4013,
+                    "endColumn": 43,
+                    "endOffset": 4052
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4013,
+                        "endColumn": 43,
+                        "endOffset": 4052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4057,
+                    "endColumn": 85,
+                    "endOffset": 4138
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4057,
+                        "endColumn": 85,
+                        "endOffset": 4138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4143,
+                    "endColumn": 52,
+                    "endOffset": 4191
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4143,
+                        "endColumn": 52,
+                        "endOffset": 4191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4196,
+                    "endColumn": 42,
+                    "endOffset": 4234
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4196,
+                        "endColumn": 42,
+                        "endOffset": 4234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4239,
+                    "endColumn": 86,
+                    "endOffset": 4321
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4239,
+                        "endColumn": 86,
+                        "endOffset": 4321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4326,
+                    "endColumn": 44,
+                    "endOffset": 4366
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4326,
+                        "endColumn": 44,
+                        "endOffset": 4366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4371,
+                    "endColumn": 43,
+                    "endOffset": 4410
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4371,
+                        "endColumn": 43,
+                        "endOffset": 4410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4415,
+                    "endColumn": 59,
+                    "endOffset": 4470
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4415,
+                        "endColumn": 59,
+                        "endOffset": 4470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4475,
+                    "endColumn": 54,
+                    "endOffset": 4525
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 4475,
+                        "endColumn": 54,
+                        "endOffset": 4525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4530,
+                    "endColumn": 46,
+                    "endOffset": 4572
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 4530,
+                        "endColumn": 46,
+                        "endOffset": 4572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4577,
+                    "endColumn": 47,
+                    "endOffset": 4620
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 4577,
+                        "endColumn": 47,
+                        "endOffset": 4620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4625,
+                    "endColumn": 49,
+                    "endOffset": 4670
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 4625,
+                        "endColumn": 49,
+                        "endOffset": 4670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4675,
+                    "endColumn": 53,
+                    "endOffset": 4724
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 4675,
+                        "endColumn": 53,
+                        "endOffset": 4724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4729,
+                    "endColumn": 57,
+                    "endOffset": 4782
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4729,
+                        "endColumn": 57,
+                        "endOffset": 4782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4787,
+                    "endColumn": 52,
+                    "endOffset": 4835
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 4787,
+                        "endColumn": 52,
+                        "endOffset": 4835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4840,
+                    "endColumn": 60,
+                    "endOffset": 4896
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 4840,
+                        "endColumn": 60,
+                        "endOffset": 4896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4901,
+                    "endColumn": 45,
+                    "endOffset": 4942
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 4901,
+                        "endColumn": 45,
+                        "endOffset": 4942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4947,
+                    "endColumn": 57,
+                    "endOffset": 5000
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 4947,
+                        "endColumn": 57,
+                        "endOffset": 5000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5005,
+                    "endColumn": 57,
+                    "endOffset": 5058
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5005,
+                        "endColumn": 57,
+                        "endOffset": 5058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5063,
+                    "endColumn": 54,
+                    "endOffset": 5113
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5063,
+                        "endColumn": 54,
+                        "endOffset": 5113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5118,
+                    "endColumn": 56,
+                    "endOffset": 5170
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5118,
+                        "endColumn": 56,
+                        "endOffset": 5170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5175,
+                    "endColumn": 52,
+                    "endOffset": 5223
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5175,
+                        "endColumn": 52,
+                        "endOffset": 5223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5228,
+                    "endColumn": 103,
+                    "endOffset": 5327
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5228,
+                        "endColumn": 103,
+                        "endOffset": 5327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5332,
+                    "endColumn": 46,
+                    "endOffset": 5374
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5332,
+                        "endColumn": 46,
+                        "endOffset": 5374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5379,
+                    "endColumn": 38,
+                    "endOffset": 5413
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5379,
+                        "endColumn": 38,
+                        "endOffset": 5413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5418,
+                    "endColumn": 83,
+                    "endOffset": 5497
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5418,
+                        "endColumn": 83,
+                        "endOffset": 5497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5502,
+                    "endColumn": 43,
+                    "endOffset": 5541
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5502,
+                        "endColumn": 43,
+                        "endOffset": 5541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5546,
+                    "endColumn": 43,
+                    "endOffset": 5585
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 5546,
+                        "endColumn": 43,
+                        "endOffset": 5585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5590,
+                    "endColumn": 60,
+                    "endOffset": 5646
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5590,
+                        "endColumn": 60,
+                        "endOffset": 5646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5651,
+                    "endColumn": 55,
+                    "endOffset": 5702
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 5651,
+                        "endColumn": 55,
+                        "endOffset": 5702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5707,
+                    "endColumn": 50,
+                    "endOffset": 5753
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 5707,
+                        "endColumn": 50,
+                        "endOffset": 5753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5758,
+                    "endColumn": 55,
+                    "endOffset": 5809
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 5758,
+                        "endColumn": 55,
+                        "endOffset": 5809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5814,
+                    "endColumn": 63,
+                    "endOffset": 5873
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 5814,
+                        "endColumn": 63,
+                        "endOffset": 5873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5878,
+                    "endColumn": 48,
+                    "endOffset": 5922
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 5878,
+                        "endColumn": 48,
+                        "endOffset": 5922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5927,
+                    "endColumn": 47,
+                    "endOffset": 5970
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 5927,
+                        "endColumn": 47,
+                        "endOffset": 5970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5975,
+                    "endColumn": 51,
+                    "endOffset": 6022
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 5975,
+                        "endColumn": 51,
+                        "endOffset": 6022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6027,
+                    "endColumn": 53,
+                    "endOffset": 6076
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6027,
+                        "endColumn": 53,
+                        "endOffset": 6076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6081,
+                    "endColumn": 50,
+                    "endOffset": 6127
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6081,
+                        "endColumn": 50,
+                        "endOffset": 6127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6132,
+                    "endColumn": 46,
+                    "endOffset": 6174
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6132,
+                        "endColumn": 46,
+                        "endOffset": 6174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6179,
+                    "endColumn": 48,
+                    "endOffset": 6223
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6179,
+                        "endColumn": 48,
+                        "endOffset": 6223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6228,
+                    "endColumn": 59,
+                    "endOffset": 6283
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 6228,
+                        "endColumn": 59,
+                        "endOffset": 6283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6288,
+                    "endColumn": 45,
+                    "endOffset": 6329
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 6288,
+                        "endColumn": 45,
+                        "endOffset": 6329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6334,
+                    "endColumn": 59,
+                    "endOffset": 6389
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6334,
+                        "endColumn": 59,
+                        "endOffset": 6389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6394,
+                    "endColumn": 44,
+                    "endOffset": 6434
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 6394,
+                        "endColumn": 44,
+                        "endOffset": 6434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6439,
+                    "endColumn": 86,
+                    "endOffset": 6521
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 6439,
+                        "endColumn": 86,
+                        "endOffset": 6521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6526,
+                    "endColumn": 52,
+                    "endOffset": 6574
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6526,
+                        "endColumn": 52,
+                        "endOffset": 6574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6579,
+                    "endColumn": 52,
+                    "endOffset": 6627
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6579,
+                        "endColumn": 52,
+                        "endOffset": 6627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6632,
+                    "endColumn": 59,
+                    "endOffset": 6687
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 6632,
+                        "endColumn": 59,
+                        "endOffset": 6687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6692,
+                    "endColumn": 58,
+                    "endOffset": 6746
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6692,
+                        "endColumn": 58,
+                        "endOffset": 6746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6751,
+                    "endColumn": 50,
+                    "endOffset": 6797
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6751,
+                        "endColumn": 50,
+                        "endOffset": 6797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6802,
+                    "endColumn": 98,
+                    "endOffset": 6896
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6802,
+                        "endColumn": 98,
+                        "endOffset": 6896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6901,
+                    "endColumn": 41,
+                    "endOffset": 6938
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6901,
+                        "endColumn": 41,
+                        "endOffset": 6938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6943,
+                    "endColumn": 83,
+                    "endOffset": 7022
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 6943,
+                        "endColumn": 83,
+                        "endOffset": 7022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 7027,
+                    "endColumn": 51,
+                    "endOffset": 7074
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 7027,
+                        "endColumn": 51,
+                        "endOffset": 7074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7079,
+                    "endColumn": 45,
+                    "endOffset": 7120
+                },
+                "from": {
+                    "file": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7079,
+                        "endColumn": 45,
+                        "endOffset": 7120
+                    }
+                }
+            }
+        ]
+    }
+]

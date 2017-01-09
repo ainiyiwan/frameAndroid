@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\classic_platform_corners_bg.xml",
+        "source": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\classic_platform_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\classic_platform_corners_bg.xml",
+        "source": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\classic_platform_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "D:\\xsd_android\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "D:\\frameAndroid\\ShareSdk-lib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    }
+]

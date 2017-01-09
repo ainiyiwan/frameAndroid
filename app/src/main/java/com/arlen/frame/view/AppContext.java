@@ -4,7 +4,11 @@ import android.app.Application;
 import android.content.Context;
 
 import com.arlen.frame.common.activity.ActivityManager;
+import com.arlen.frame.common.thirdsdk.jpush.JPushOperator;
 import com.arlen.frame.common.utils.OsUtils;
+import com.umeng.analytics.MobclickAgent;
+
+import cn.sharesdk.framework.ShareSDK;
 
 /**
  * Created by Arlen on 2016/12/21 15:13.
@@ -18,6 +22,13 @@ public class AppContext extends Application{
         super.onCreate();
         if (OsUtils.shouldInit(this)){
             mAppContext = this;
+            //极光推送
+            JPushOperator.init(mAppContext);
+            //分享
+            ShareSDK.initSDK(mAppContext);
+            // 友盟功能初始化
+            MobclickAgent.openActivityDurationTrack(false); // umeng 禁用默认的页面统计
+            MobclickAgent.setDebugMode(true);
         }
     }
 
@@ -39,4 +50,5 @@ public class AppContext extends Application{
     public void exitApp() {
         ActivityManager.getInstance().clearAllActivity();
     }
+
 }

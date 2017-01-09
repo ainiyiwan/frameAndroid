@@ -7,6 +7,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.arlen.frame.R;
+import com.arlen.frame.common.thirdsdk.share.ShareController;
 import com.arlen.frame.view.base.BaseRecycleAdapter;
 import com.arlen.frame.view.base.BaseViewHolder;
 import com.arlen.frame.view.base.DelegateActivity;
@@ -16,6 +17,8 @@ import com.aspsine.swipetoloadlayout.SwipeToLoadLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.sharesdk.onekeyshare.model.ShareContent;
 
 /**
  * Created by Arlen on 2016/12/27 18:17.
@@ -43,7 +46,14 @@ public class JDPullRefreshActivity extends DelegateActivity implements OnRefresh
         swipeToLoadLayout.initTargetView(recyclerView);
         swipeToLoadLayout.setOnRefreshListener(this);
         swipeToLoadLayout.setOnLoadMoreListener(this);
-
+//        RequestLocalClient requestLocalClient = new RequestLocalClient(this, new LocalListener() {
+//            @Override
+//            public void callBack(BDLocation bdLocation) {
+//                Log.d("tag", "callBack: "+bdLocation.getCity());
+////                ToastUtils.toastShort(bdLocation.getCity());
+//            }
+//        });
+//        requestLocalClient.startLocal();
 //        recyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
 //            @Override
 //            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
@@ -61,6 +71,17 @@ public class JDPullRefreshActivity extends DelegateActivity implements OnRefresh
                 tv.setText(item);
             }
         };
+        adapter.setOnItemClickListener(new BaseRecycleAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int var1) {
+                ShareContent shareContent = new ShareContent();
+                shareContent.setTitle("wdd专用");
+                shareContent.setContent("那就这有吧还有什么好说的");
+                shareContent.setLink("http://www.baidu.com");
+                shareContent.setIconUrl("http://www.baidu.com");
+                ShareController.getInstance().showShare(JDPullRefreshActivity.this,shareContent);
+            }
+        });
         recyclerView.setAdapter(adapter);
         adapter.addAll(list);
     }

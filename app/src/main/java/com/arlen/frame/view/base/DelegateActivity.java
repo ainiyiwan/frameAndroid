@@ -11,6 +11,8 @@ import com.arlen.frame.R;
 import com.arlen.frame.common.activity.ActivityManager;
 import com.arlen.frame.common.view.NavBarHeader;
 
+import cn.jpush.android.api.JPushInterface;
+
 /**
  * Created by Arlen on 2016/12/23 17:48.
  */
@@ -91,6 +93,13 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
     @Override
     protected void onResume() {
         super.onResume();
+        JPushInterface.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        JPushInterface.onPause(this);
     }
 
     @Override
@@ -115,12 +124,14 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
             throw new RuntimeException("sorry,you hasn't add emptyView!");
        }
         mEmptyView.setVisibility(show?View.VISIBLE:View.GONE);
+        mErrorView.setVisibility(show?View.GONE:View.VISIBLE);
     }
 
     public void showErrorView(boolean show){
         if(mErrorView == null){
             throw new RuntimeException("sorry,you hasn't add errorView!");
         }
+        mEmptyView.setVisibility(show?View.GONE:View.VISIBLE);
         mErrorView.setVisibility(show?View.VISIBLE:View.GONE);
     }
 
