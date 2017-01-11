@@ -12,7 +12,7 @@ import de.greenrobot.daogenerator.Schema;
  */
 public class GreenDaoGenerator {
 
-    public static final String mPackageName = "com.arlen.frame.db.database";
+    public static final String mPackageName = "com.arlen.frame.common.db.database";
     public static String path;
     ///////////////////////////////////////////////////////////////////////////
     // 底价和房态 Table

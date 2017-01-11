@@ -1,7 +1,7 @@
 package com.arlen.frame.view.account.view;
 
 import com.arlen.frame.view.account.model.Account;
-import com.arlen.frame.view.base.IBaseView;
+import com.arlen.frame.common.base.IBaseView;
 
 /**
  * Created by Arlen on 2016/12/22 18:30.

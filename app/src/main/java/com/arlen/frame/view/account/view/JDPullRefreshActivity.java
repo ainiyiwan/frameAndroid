@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import com.arlen.frame.R;
 import com.arlen.frame.common.thirdsdk.share.ShareController;
-import com.arlen.frame.view.base.BaseRecycleAdapter;
-import com.arlen.frame.view.base.BaseViewHolder;
-import com.arlen.frame.view.base.DelegateActivity;
+import com.arlen.frame.common.base.BaseRecycleAdapter;
+import com.arlen.frame.common.base.BaseViewHolder;
+import com.arlen.frame.common.base.DelegateActivity;
 import com.aspsine.swipetoloadlayout.OnLoadMoreListener;
 import com.aspsine.swipetoloadlayout.OnRefreshListener;
 import com.aspsine.swipetoloadlayout.SwipeToLoadLayout;

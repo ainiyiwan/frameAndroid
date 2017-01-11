@@ -10,7 +10,7 @@ import com.arlen.frame.common.utils.ImageUtil;
 import com.arlen.frame.view.AppContext;
 import com.arlen.frame.view.account.model.Account;
 import com.arlen.frame.view.account.presenter.UserPresenter;
-import com.arlen.frame.view.base.BaseActivity;
+import com.arlen.frame.common.base.BaseActivity;
 
 public class MainActivity extends BaseActivity<IUserView,UserPresenter> implements IUserView {
 
