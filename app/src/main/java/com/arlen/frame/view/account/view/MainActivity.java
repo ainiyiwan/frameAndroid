@@ -6,11 +6,14 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.arlen.frame.R;
+import com.arlen.frame.common.base.BaseActivity;
+import com.arlen.frame.common.thirdsdk.map.LocalListener;
+import com.arlen.frame.common.thirdsdk.map.RequestLocalClient;
 import com.arlen.frame.common.utils.ImageUtil;
 import com.arlen.frame.view.AppContext;
 import com.arlen.frame.view.account.model.Account;
 import com.arlen.frame.view.account.presenter.UserPresenter;
-import com.arlen.frame.common.base.BaseActivity;
+import com.baidu.location.BDLocation;
 
 public class MainActivity extends BaseActivity<IUserView,UserPresenter> implements IUserView {
 
@@ -22,6 +25,12 @@ public class MainActivity extends BaseActivity<IUserView,UserPresenter> implemen
         super.onCreate(savedInstanceState);
         setContentViewAll(R.layout.activity_main);
         getPresenter().loadAccount();
+        new RequestLocalClient(this,new LocalListener() {
+            @Override
+            public void callBack(BDLocation bdLocation) {
+                Log.i("tag", "callBack: "+bdLocation.getProvince());
+            }
+        }).startLocal();
     }
 
     @Override
@@ -33,12 +42,13 @@ public class MainActivity extends BaseActivity<IUserView,UserPresenter> implemen
     public void initActivity() {
         setHeaderTitle("用户中心");
         mIvImage = (ImageView) findViewById(R.id.iv_image);
+        ImageUtil.load(this,"http://7xjpiw.com1.z0.glb.clouddn.com/u73960/avatar1586",mIvImage);
     }
 
     @Override
     public void showContentView(Account obj) {
         Log.d("tag", "showContentView: "+obj.toString());
-        ImageUtil.load(this,"http://7xjpiw.com1.z0.glb.clouddn.com/u73960/avatar1586",mIvImage);
+
     }
 
     @Override

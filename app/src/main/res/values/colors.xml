@@ -9,4 +9,14 @@
     <color name="cl_26">#262626</color>
     <color name="cl_e2">#e60012</color>
     <color name="cl_ff">#ffffff</color>
+    <color name="cl_33">#333333</color>
+    <color name="cl_66">#666666</color>
+    <color name="cl_99">#999999</color>
+    <color name="cl_89">#85b6f9</color>
+    <color name="cl_1f">#f1f1f1</color>
+    <color name="cl_cc">#cccccc</color>
+    <color name="cl_ed">#ededed</color>
+    <color name="cl_f8">#f8f8f8</color>
+    <color name="cl_3f">#380f0f</color>
+    <color name="cl_4e">#43629e</color>
 </resources>

@@ -6,6 +6,7 @@ import android.content.Context;
 import com.arlen.frame.common.activity.ActivityManager;
 import com.arlen.frame.common.thirdsdk.jpush.JPushOperator;
 import com.arlen.frame.common.utils.OsUtils;
+import com.baidu.mapapi.SDKInitializer;
 import com.umeng.analytics.MobclickAgent;
 
 import cn.sharesdk.framework.ShareSDK;
@@ -24,6 +25,8 @@ public class AppContext extends Application{
             mAppContext = this;
             //极光推送
             JPushOperator.init(mAppContext);
+            //百度地图
+            SDKInitializer.initialize(getApplicationContext());
             //分享
             ShareSDK.initSDK(mAppContext);
             // 友盟功能初始化

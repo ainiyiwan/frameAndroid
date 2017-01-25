@@ -119,6 +119,17 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
         getHeaderView().setHeaderTitle(text);
     }
 
+    @Override
+    public void showLoadingView() {
+
+    }
+
+    @Override
+    public void showDataView() {
+
+    }
+
+    @Override
     public void showEmptyView(boolean show){
        if(mEmptyView == null){
             throw new RuntimeException("sorry,you hasn't add emptyView!");
@@ -127,6 +138,7 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
         mErrorView.setVisibility(show?View.GONE:View.VISIBLE);
     }
 
+    @Override
     public void showErrorView(boolean show){
         if(mErrorView == null){
             throw new RuntimeException("sorry,you hasn't add errorView!");

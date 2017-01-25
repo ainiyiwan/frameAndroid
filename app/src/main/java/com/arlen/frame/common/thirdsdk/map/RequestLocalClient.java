@@ -15,6 +15,7 @@ import com.baidu.mapapi.search.geocode.OnGetGeoCoderResultListener;
 import com.baidu.mapapi.search.geocode.ReverseGeoCodeOption;
 import com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener;
 import com.baidu.mapapi.search.poi.PoiCitySearchOption;
+import com.baidu.mapapi.search.poi.PoiNearbySearchOption;
 import com.baidu.mapapi.search.poi.PoiSearch;
 import com.baidu.mapapi.search.sug.OnGetSuggestionResultListener;
 import com.baidu.mapapi.search.sug.SuggestionSearch;
@@ -129,26 +130,34 @@ public class RequestLocalClient {
 		}
 	}
 
-	public void getAddressPointMore(String city, String keyword,
-			OnGetPoiSearchResultListener poiListener) {
+
+	public void searchInCity(int pageIndex, int total, String city, String keyword,
+							 OnGetPoiSearchResultListener poiListener) {
 		mPoiSearch = PoiSearch.newInstance();
 		mPoiSearch.setOnGetPoiSearchResultListener(poiListener);
 		mPoiSearch.searchInCity((new PoiCitySearchOption()).city(city)
-				.keyword(keyword).pageNum(2).pageCapacity(20));
+				.keyword(keyword).pageNum(pageIndex).pageCapacity(total));
+	}
+
+	public void searchNearby(int pageIndex, int total, LatLng latLng, String keyword,
+							 OnGetPoiSearchResultListener poiListener) {
+		mPoiSearch = PoiSearch.newInstance();
+		mPoiSearch.setOnGetPoiSearchResultListener(poiListener);
+		mPoiSearch.searchNearby((new PoiNearbySearchOption()).location(latLng)
+				.keyword(keyword).pageNum(pageIndex).pageCapacity(total));
 	}
 
 	public void requestSuggestion(SuggestionSearchOption option,
-			OnGetSuggestionResultListener listener) {
+								  OnGetSuggestionResultListener listener) {
 		mSuggestionSearch = SuggestionSearch.newInstance();
 		mSuggestionSearch.setOnGetSuggestionResultListener(listener);
 		mSuggestionSearch.requestSuggestion(option);
 	}
 
 	public void getAddressByLatLng(LatLng latlng,
-			OnGetGeoCoderResultListener coderResultListener) {
+								   OnGetGeoCoderResultListener coderResultListener) {
 		mSearch = GeoCoder.newInstance();
 		mSearch.setOnGetGeoCodeResultListener(coderResultListener);
 		mSearch.reverseGeoCode(new ReverseGeoCodeOption().location(latlng));
 	}
-
 }

@@ -8,6 +8,10 @@
     <dimen name="dp_15">15dp</dimen>
     <dimen name="refresh_header_height_jd">100dp</dimen>
     <!--项目里面通用的字体大小-->
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
     <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
     <dimen name="sp_18">18sp</dimen>
 </resources>

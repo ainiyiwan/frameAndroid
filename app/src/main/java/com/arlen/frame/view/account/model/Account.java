@@ -7,15 +7,25 @@ import java.io.Serializable;
  */
 public class Account implements Serializable {
         private static final long serialVersionUID = 1L;
-        float balance = -1f;
-        int points = -1;
-        int myCouponCounts = -1;
-        int myGrouponCounts = -1;
-        int waitPayOrderCounts = -1;
-        int waitCommentOrderCounts = -1;
-        int waitDeliverOrderCounts = -1;
-        int waitReceivingOrderCounts = -1;
-        int unReadMessageCounts = -1;//未读小心数量
+    private  float balance = -1f;
+    private  int points = -1;
+    private   int myCouponCounts = -1;
+    private   int myGrouponCounts = -1;
+    private   int waitPayOrderCounts = -1;
+    private   int waitCommentOrderCounts = -1;
+    private   int waitDeliverOrderCounts = -1;
+    private   int waitReceivingOrderCounts = -1;
+    private   int unReadMessageCounts = -1;//未读小心数量
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    private   String user = null;
 
 
         public int getUnReadMessageCounts() {

@@ -10,6 +10,9 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        ndk {
+            abiFilters "arm-64-v8a", "armeabi", "armeabi-v7a", "x86", "x86_64", "mips", "mips64"
+        }
     }
     signingConfigs {
         release {
@@ -19,7 +22,11 @@ android {
             keyPassword "875230"
         }
     }
-
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
     buildTypes {
         debug {
             minifyEnabled false

@@ -5,8 +5,13 @@ package com.arlen.frame.common.base;
  */
 public interface IBaseView {
 
+     void showLoadingView();
+
      void showErrorView(boolean show);
 
      void showEmptyView(boolean show);
+
+     void showDataView();
+
 
 }
