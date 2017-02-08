@@ -17,7 +17,9 @@ public class UserPresenter extends BasePresenter<IUserView> implements IUserPres
             @Override
             public void onNext(Account account) {
                 super.onNext(account);
-                getView().showContentView(account);
+                if(isAttachView()) {
+                    getView().showContentView(account);
+                }
             }
 
             @Override

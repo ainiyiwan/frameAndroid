@@ -3,15 +3,14 @@ package com.arlen.frame.common.base;
 /**
  * Created by Arlen on 2016/12/21 16:30.
  */
-public interface IBaseView {
+public interface IBaseView{
 
      void showLoadingView();
 
-     void showErrorView(boolean show);
+     void showErrorView();
 
-     void showEmptyView(boolean show);
+     void showEmptyView();
 
      void showDataView();
-
 
 }

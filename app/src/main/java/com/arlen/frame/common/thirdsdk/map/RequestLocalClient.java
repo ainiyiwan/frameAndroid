@@ -17,6 +17,7 @@ import com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener;
 import com.baidu.mapapi.search.poi.PoiCitySearchOption;
 import com.baidu.mapapi.search.poi.PoiNearbySearchOption;
 import com.baidu.mapapi.search.poi.PoiSearch;
+import com.baidu.mapapi.search.poi.PoiSortType;
 import com.baidu.mapapi.search.sug.OnGetSuggestionResultListener;
 import com.baidu.mapapi.search.sug.SuggestionSearch;
 import com.baidu.mapapi.search.sug.SuggestionSearchOption;
@@ -144,7 +145,8 @@ public class RequestLocalClient {
 		mPoiSearch = PoiSearch.newInstance();
 		mPoiSearch.setOnGetPoiSearchResultListener(poiListener);
 		mPoiSearch.searchNearby((new PoiNearbySearchOption()).location(latLng)
-				.keyword(keyword).pageNum(pageIndex).pageCapacity(total));
+				.keyword(keyword).pageNum(pageIndex).pageCapacity(total)
+				.sortType(PoiSortType.distance_from_near_to_far));
 	}
 
 	public void requestSuggestion(SuggestionSearchOption option,

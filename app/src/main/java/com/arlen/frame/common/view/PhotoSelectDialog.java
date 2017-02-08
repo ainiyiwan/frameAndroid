@@ -19,7 +19,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
-
 import com.arlen.frame.R;
 import com.arlen.frame.common.utils.FileSizeUtil;
 import com.arlen.frame.common.utils.ToastUtils;
@@ -188,29 +187,31 @@ public class PhotoSelectDialog extends Dialog implements View.OnClickListener {
         mActivity.startActivityForResult(intent, CROP_RESULT);
     }
 
-    public void doPhoto(int requestCode, Intent data) {
-        if(data == null)
-            return;
+    public void doPhoto(int requestCode, int resultCode, Intent data) {
         if (requestCode == SELECT_PIC_BY_PICK_PHOTO) {
-            if (data == null) {
-                ToastUtils.toastShort("选择图片文件出错");
-                return;
-            }
-            mImageUri = data.getData();
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                String url = FileSizeUtil.getImageAbsolutePath(mActivity, mImageUri);
-                mImageUri = Uri.fromFile(new File(url));
-            }
-            if (mImageUri == null) {
-                ToastUtils.toastShort("选择图片文件出错");
-                return;
-            }
-            if (mListener != null) {
-                mListener.cropResult(mImageUri);
+            if (resultCode == mActivity.RESULT_OK) {
+                if (data == null) {
+                    ToastUtils.toastShort("选择图片文件出错");
+                    return;
+                }
+                mImageUri = data.getData();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    String url = FileSizeUtil.getImageAbsolutePath(mActivity, mImageUri);
+                    mImageUri = Uri.fromFile(new File(url));
+                }
+                if (mImageUri == null) {
+                    ToastUtils.toastShort("选择图片文件出错");
+                    return;
+                }
+                if (mListener != null) {
+                    mListener.cropResult(mImageUri);
+                }
             }
         } else if (requestCode == SELECT_PIC_BY_TACK_PHOTO) {
-            if (mListener != null) {
-                mListener.cropResult(mPhotoUri);
+            if (resultCode == mActivity.RESULT_OK) {
+                if (mListener != null) {
+                    mListener.cropResult(mPhotoUri);
+                }
             }
         }
     }

@@ -21,6 +21,7 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
     private View mEmptyView;
     private View mErrorView;
     private View mHeaderView;
+    private View mContentView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,7 +72,8 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
     public void setContentViewHeader(int layoutResID){
         LinearLayout linearLayout = initCommonView();
         linearLayout.addView(initHeaderView(linearLayout));
-        linearLayout.addView(LayoutInflater.from(this).inflate(layoutResID,linearLayout,false));
+        mContentView = LayoutInflater.from(this).inflate(layoutResID,linearLayout,false);
+        linearLayout.addView(mContentView);
         super.setContentView(linearLayout);
         initActivity();
     }
@@ -85,7 +87,8 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
         linearLayout.addView(initHeaderView(linearLayout));
         linearLayout.addView(initEmptyView(linearLayout));
         linearLayout.addView(initErrorView(linearLayout));
-        linearLayout.addView(LayoutInflater.from(this).inflate(layoutResID,linearLayout,false));
+        mContentView = LayoutInflater.from(this).inflate(layoutResID,linearLayout,false);
+        linearLayout.addView(mContentView);
         super.setContentView(linearLayout);
         initActivity();
     }
@@ -126,25 +129,32 @@ public abstract class DelegateActivity extends FragmentActivity implements IBase
 
     @Override
     public void showDataView() {
-
+        if(mContentView == null){
+            throw new RuntimeException("sorry,you hasn't add contentView!");
+        }
+        mContentView.setVisibility(View.VISIBLE);
+        mEmptyView.setVisibility(View.GONE);
+        mErrorView.setVisibility(View.GONE);
     }
 
     @Override
-    public void showEmptyView(boolean show){
+    public void showEmptyView(){
        if(mEmptyView == null){
             throw new RuntimeException("sorry,you hasn't add emptyView!");
        }
-        mEmptyView.setVisibility(show?View.VISIBLE:View.GONE);
-        mErrorView.setVisibility(show?View.GONE:View.VISIBLE);
+        mContentView.setVisibility(View.GONE);
+        mEmptyView.setVisibility(View.VISIBLE);
+        mErrorView.setVisibility(View.GONE);
     }
 
     @Override
-    public void showErrorView(boolean show){
+    public void showErrorView(){
         if(mErrorView == null){
             throw new RuntimeException("sorry,you hasn't add errorView!");
         }
-        mEmptyView.setVisibility(show?View.GONE:View.VISIBLE);
-        mErrorView.setVisibility(show?View.VISIBLE:View.GONE);
+        mContentView.setVisibility(View.GONE);
+        mEmptyView.setVisibility(View.GONE);
+        mErrorView.setVisibility(View.VISIBLE);
     }
 
     public abstract void initActivity();

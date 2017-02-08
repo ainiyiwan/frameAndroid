@@ -15,7 +15,7 @@ import com.arlen.frame.view.account.model.Account;
 import com.arlen.frame.view.account.presenter.UserPresenter;
 import com.baidu.location.BDLocation;
 
-public class MainActivity extends BaseActivity<IUserView,UserPresenter> implements IUserView {
+public class MainActivity extends BaseActivity<IUserView,UserPresenter> implements IUserView{
 
     private long mBackPressed;
 
@@ -42,13 +42,6 @@ public class MainActivity extends BaseActivity<IUserView,UserPresenter> implemen
     public void initActivity() {
         setHeaderTitle("用户中心");
         mIvImage = (ImageView) findViewById(R.id.iv_image);
-        ImageUtil.load(this,"http://7xjpiw.com1.z0.glb.clouddn.com/u73960/avatar1586",mIvImage);
-    }
-
-    @Override
-    public void showContentView(Account obj) {
-        Log.d("tag", "showContentView: "+obj.toString());
-
     }
 
     @Override
@@ -60,5 +53,11 @@ public class MainActivity extends BaseActivity<IUserView,UserPresenter> implemen
             Toast.makeText(this, R.string.quit_app_text, Toast.LENGTH_SHORT).show();
             mBackPressed = System.currentTimeMillis();
         }
+    }
+
+    @Override
+    public void showContentView(Account account) {
+        Log.d("tag", "showContentView: "+account.toString());
+        ImageUtil.load(this,"http://7xjpiw.com1.z0.glb.clouddn.com/u73960/avatar1586",mIvImage);
     }
 }

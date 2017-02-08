@@ -1,6 +1,5 @@
 package com.arlen.frame.common.base;
 
-import android.util.Log;
 import com.arlen.frame.common.net.HttpProvider;
 import com.arlen.frame.common.net.ReqCallBack;
 import com.arlen.frame.common.net.ReqSubscriber;
@@ -45,8 +44,12 @@ public abstract class BasePresenter<T> implements IBasePresenter<T>{
     }
 
     @Override
+    public boolean isAttachView() {
+        return mView != null;
+    }
+
+    @Override
     public void onResume(){
-        Log.d("tag", "onResume: ");
     };
 
     public Subscription setObservable(Observable observable, ReqCallBack mCallback) {
